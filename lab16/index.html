@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro con imagen de perfil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Acerca de</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Registro de usuarios</h1>
+    
+    <form action="" class="formulario" onsubmit="return validarFormulario()">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <label>Correo electronico:</label>
+        <input type="email" name="email" id="email">
+        <label>Contraseña:</label>
+        <input type="password" name="pass" id="pass">
+        <label>Imagen de perfil:</label>
+        <input type="file" name="imagen" id="imagen" accept="imagen" onchange="mostrarImagen(event)">
+        <img id="ver-imagen" class="ver-imagen">
+        <button type="submit">Registrar</button>
+    </form>
+
+    <script src="script.js" ></script>
+
+</body>
+</html>

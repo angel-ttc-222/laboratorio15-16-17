@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+
+div {
+    padding: 1em;
+}
+
+nav {
+    color: white;
+    text-align: left;
+    font-size: 18;
+}
+
+section {
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: darkolivegreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav ul li a:hover {
+    background-color: darkolivegreen;
+}
